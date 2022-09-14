@@ -53,7 +53,7 @@ class SingleParticle(ParticleSystem):
 
             self.p2 = (px**2 + py**2)
 
-        elif self.H.spatial_ndim == 3:
+        elif H.spatial_ndim == 3:
             raise NotImplementedError(
                 f"split-step isn't implemented for a 3D single particle")
 
